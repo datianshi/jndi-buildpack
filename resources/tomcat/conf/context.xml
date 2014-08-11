@@ -16,4 +16,9 @@
   -->
 
 <Context allowLinking='true'>
+<Resource name="jdbc/mysql" auth="Container"
+              type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://us-cdbr-iron-east-01.cleardb.net:3306/ad_0cf8b72cbea0262"
+              username="bc78c47f178158" password="63da061a" maxActive="20" maxIdle="10"
+              maxWait="-1"/>
 </Context>
